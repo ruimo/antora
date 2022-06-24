@@ -1,0 +1,25 @@
+= Title
+
+Hello, World
+
+== PlantUML
+ 
+PlantUML を直接書ける
+ 
+.PlantUMLの例
+[plantuml]
+....
+@startuml
+
+cloud クラウド1
+cloud クラウド2
+cloud クラウド3
+cloud クラウド4
+cloud クラウド5
+クラウド1 -- クラウド2
+クラウド1 -- クラウド3
+クラウド1 -- クラウド4
+クラウド1 -- クラウド5
+
+@enduml
+....
